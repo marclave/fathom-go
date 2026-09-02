@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"fathom-analytics/internal/requestconfig"
+	"github.com/marclave/fathom-go/internal/requestconfig"
 	"github.com/tidwall/sjson"
 )
 

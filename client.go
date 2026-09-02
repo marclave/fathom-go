@@ -9,8 +9,8 @@ import (
 	"slices"
 	"strings"
 
-	"fathom-analytics/internal/requestconfig"
-	"fathom-analytics/option"
+	"github.com/marclave/fathom-go/internal/requestconfig"
+	"github.com/marclave/fathom-go/option"
 )
 
 // Client creates a struct with services and top level methods that help with

@@ -1,4 +1,4 @@
-module fathom-analytics
+module github.com/marclave/fathom-go
 
 go 1.22
 

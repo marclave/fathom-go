@@ -18,11 +18,11 @@ import (
 	"strings"
 	"time"
 
-	"fathom-analytics/internal"
-	"fathom-analytics/internal/apierror"
-	"fathom-analytics/internal/apiform"
-	"fathom-analytics/internal/apiquery"
-	"fathom-analytics/internal/param"
+	"github.com/marclave/fathom-go/internal"
+	"github.com/marclave/fathom-go/internal/apierror"
+	"github.com/marclave/fathom-go/internal/apiform"
+	"github.com/marclave/fathom-go/internal/apiquery"
+	"github.com/marclave/fathom-go/internal/param"
 )
 
 func getDefaultHeaders() map[string]string {

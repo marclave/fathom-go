@@ -13,7 +13,7 @@ import (
 
 	"github.com/tidwall/sjson"
 
-	"fathom-analytics/internal/param"
+	"github.com/marclave/fathom-go/internal/param"
 )
 
 var encoders sync.Map // map[encoderEntry]encoderFunc

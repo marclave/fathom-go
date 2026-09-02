@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"slices"
 
-	"fathom-analytics/internal/requestconfig"
-	"fathom-analytics/option"
+	"github.com/marclave/fathom-go/internal/requestconfig"
+	"github.com/marclave/fathom-go/option"
 )
 
 // AccountService contains methods and other services that help with interacting

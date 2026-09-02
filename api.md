@@ -40,7 +40,7 @@ import (
 	"context"
 	"fmt"
 
-	sdk "fathom-analytics"
+	sdk "github.com/marclave/fathom-go"
 )
 
 client := sdk.NewClient()
