@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"fathom-analytics/internal/apijson"
+	"github.com/marclave/fathom-go/internal/apijson"
 )
 
 // Error represents an error that originates from the API, i.e. when a request is

@@ -1,7 +1,7 @@
 package fathomanalytics
 
 import (
-	"fathom-analytics/internal/param"
+	"github.com/marclave/fathom-go/internal/param"
 	"io"
 )
 

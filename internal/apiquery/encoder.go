@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"fathom-analytics/internal/param"
+	"github.com/marclave/fathom-go/internal/param"
 )
 
 var encoders sync.Map // map[reflect.Type]encoderFunc

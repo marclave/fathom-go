@@ -3,7 +3,7 @@
 package fathomanalytics
 
 import (
-	"fathom-analytics/internal/apierror"
+	"github.com/marclave/fathom-go/internal/apierror"
 )
 
 type Error = apierror.Error

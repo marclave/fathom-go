@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	sdk "fathom-analytics"
-	"fathom-analytics/option"
+	sdk "github.com/marclave/fathom-go"
+	"github.com/marclave/fathom-go/option"
 )
 
 // Smoke test: calls every generated operation once to confirm the SDK can reach each endpoint.

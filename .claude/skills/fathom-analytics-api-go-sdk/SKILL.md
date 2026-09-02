@@ -1,16 +1,16 @@
 ---
 name: fathom-analytics-api-go-sdk
-description: "Go SDK for Fathom Analytics API. Use when writing Go code that calls Fathom Analytics API with the fathom-analytics package: installing it, constructing and authenticating the client, and calling API operations."
+description: "Go SDK for Fathom Analytics API. Use when writing Go code that calls Fathom Analytics API with the github.com/marclave/fathom-go package: installing it, constructing and authenticating the client, and calling API operations."
 ---
 
 # Fathom Analytics API Go SDK
 
-Generated Go client for Fathom Analytics API, published as `fathom-analytics`. Use the generated client instead of hand-writing HTTP requests.
+Generated Go client for Fathom Analytics API, published as `github.com/marclave/fathom-go`. Use the generated client instead of hand-writing HTTP requests.
 
 ## Install
 
 ```sh
-go get fathom-analytics
+go get github.com/marclave/fathom-go
 ```
 
 ## Client setup and authentication
@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	sdk "fathom-analytics"
+	sdk "github.com/marclave/fathom-go"
 )
 
 client := sdk.NewClient()
@@ -39,8 +39,8 @@ import (
 	"context"
 	"os"
 
-	sdk "fathom-analytics"
-	"fathom-analytics/option"
+	sdk "github.com/marclave/fathom-go"
+	"github.com/marclave/fathom-go/option"
 )
 
 func main() {
@@ -71,7 +71,7 @@ if err != nil {
 	panic(err)
 }
 
-// imports: "context", "errors", "fmt", sdk "fathom-analytics"
+// imports: "context", "errors", "fmt", sdk "github.com/marclave/fathom-go"
 ```
 
 ## Requirements

@@ -10,11 +10,11 @@ import (
 	"net/url"
 	"slices"
 
-	"fathom-analytics/internal/apijson"
-	"fathom-analytics/internal/apiquery"
-	"fathom-analytics/internal/param"
-	"fathom-analytics/internal/requestconfig"
-	"fathom-analytics/option"
+	"github.com/marclave/fathom-go/internal/apijson"
+	"github.com/marclave/fathom-go/internal/apiquery"
+	"github.com/marclave/fathom-go/internal/param"
+	"github.com/marclave/fathom-go/internal/requestconfig"
+	"github.com/marclave/fathom-go/option"
 )
 
 // MilestoneService contains methods and other services that help with interacting

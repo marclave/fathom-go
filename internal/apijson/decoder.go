@@ -12,7 +12,7 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"fathom-analytics/internal/param"
+	"github.com/marclave/fathom-go/internal/param"
 )
 
 // decoders is a synchronized map with roughly the following type:

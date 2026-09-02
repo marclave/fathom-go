@@ -25,7 +25,7 @@ The full API of this library can be found in [api.md](./api.md).
 ## Installation
 
 ```sh
-go get fathom-analytics
+go get github.com/marclave/fathom-go
 ```
 
 <br />
@@ -39,8 +39,8 @@ import (
 	"context"
 	"os"
 
-	sdk "fathom-analytics"
-	"fathom-analytics/option"
+	sdk "github.com/marclave/fathom-go"
+	"github.com/marclave/fathom-go/option"
 )
 
 func main() {
@@ -89,7 +89,7 @@ if err != nil {
 	panic(err)
 }
 
-// imports: "context", "errors", "fmt", sdk "fathom-analytics"
+// imports: "context", "errors", "fmt", sdk "github.com/marclave/fathom-go"
 ```
 
 Documented error statuses: `400`, `401`, `410`.
@@ -107,7 +107,7 @@ client := sdk.NewClient(
 	option.WithRequestTimeout(60*time.Second),
 )
 
-// imports: sdk "fathom-analytics", "fathom-analytics/option", "time"
+// imports: sdk "github.com/marclave/fathom-go", "github.com/marclave/fathom-go/option", "time"
 ```
 
 | Option | Type | Default | Description |
